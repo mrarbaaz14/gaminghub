@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background: url('/img/backgrou.jpg');
+}
+.bar{
+    background-color: black;
+    display: flex;
+    height:50px;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sofia, sans-serif;
+    font-size: 18px;
+    padding-top: 12px;
+    color: white;
+}
+.logo img {
+    height: 190%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-radius: 50%;
+}
+.list{
+    font-weight: bold;
+    width: 60%;
+    
+    display: flex;
+    text-align: center;
+
+}
+.list li{
+    padding-top: 12px;
+    font-size: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.list li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+} 
+.list li a:hover{
+    color: #15cc14;
+    text-decoration:line-through;
+    padding: 10px 10px;
+    margin: 5px;
+} 
+.list li a.active{
+    color: #15cc14;
+    text-decoration:overline;
+}
+.right{
+    background-color: black;
+    width: 40%;
+    text-align: right;
+    margin: 4px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+.en{
+    color: #d9d9d9;
+    border: 1px solid #15cc04;
+    background-color: black;
+}
+.en:hover{
+    background-color: #15cc04;
+}
+.about-section{
+    background: url(/2133.png) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px 00;
+
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: black;
+    padding: 150px;
+    color: #15cc14;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.us{
+    font-size: 13px;
+    color: #d9d9d9;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    color: #d9d9d9;
+
+}
+.footer{
+    color: #d9d9d9;
+    bottom: 0px;
+    width: 100%;
+    background: #111111;
+    height: 50px;
+    text-align: center;
+}
